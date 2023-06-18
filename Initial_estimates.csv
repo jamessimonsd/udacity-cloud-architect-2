@@ -1,21 +1,23 @@
 ﻿Estimate summary
 Upfront cost,Monthly cost,Total 12 months cost,Currency
-6007.608,3129.6279999999997,43563.14,USD
+0,8568.786,102825.43,USD
 ,,* Includes upfront cost
 
 
 Detailed Estimate
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
-My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,37.35,448.20,USD,,Number of NAT Gateways (1)
-My Estimate,US East (Ohio),,Amazon EC2 ,3011.688,83.658,4015.58,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.large), Pricing strategy (Compute Savings Plans 3 Year  Partial upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-My Estimate,US East (Ohio),,Amazon EC2 ,2995.92,83.22,3994.56,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (c5.large), Pricing strategy (Compute Savings Plans 3 Year  Partial upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-My Estimate,US East (Ohio),,Amazon RDS for MySQL,0,561.6999999999999,6740.40,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.m4.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
-My Estimate,US East (Ohio),,Amazon Route 53,0,988,11856.00,USD,,"Hosted Zones (1), Number of Elastic Network Interfaces (10)"
-My Estimate,US East (Ohio),,S3 Standard,0,23,276.00,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (Ohio),,Amazon EC2 ,0,458.916,5506.99,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t3.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon EC2 ,0,466.8,5601.60,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (c5.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (30 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon RDS for MySQL,0,1811.18,21734.16,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Quantity (1), Instance type (db.m4.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (Reserved 1yr No Upfront)"
+My Estimate,US East (Ohio),,S3 Standard,0,460,5520.00,USD,,S3 Standard storage (20000 GB per month)
 My Estimate,US East (Ohio),,Data Transfer,0,0,0.00,USD,,
-My Estimate,US East (Ohio),,Application Load Balancer,0,22.27,267.24,USD,,Number of Application Load Balancers (1)
-My Estimate,US East (Ohio),,Network Load Balancer,0,1330.43,15965.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
-My Estimate,US East (Ohio),,Amazon CloudWatch,0,0,0.00,USD,,
+My Estimate,US East (Ohio),,Application Load Balancer,0,1184.43,14213.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),,Network Load Balancer,0,1768.43,21221.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Average number of new TCP connections (10 per second), Average TCP connection duration (30 seconds), Processed bytes per NLB for UDP (200 GB per hour), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+My Estimate,US East (Ohio),,Amazon CloudWatch,0,520,6240.00,USD,,"Number of Metrics (includes detailed and custom metrics) (1000), GetMetricData: Number of metrics requested (10000000), Number of other API requests (10000000), GetMetricWidgetImage: Number of metrics requested (1000000)"
+My Estimate,US East (Ohio),,Amazon Route 53,0,1038,12456.00,USD,,"Hosted Zones (1), Basic Checks Within AWS (100), Number of Elastic Network Interfaces (10)"
+My Estimate,US East (Ohio),,VPN Connection,0,667,8004.00,USD,,"Working days per month (30), Number of subnet associations (4)"
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,122.85,1474.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (Ohio),,Gateway Load Balancer,0,71.18,854.16,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (1), Number of Gateway Load Balancer Endpoints (1), Total processed bytes (10 GB per hour)"
 
 
 
