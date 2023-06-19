@@ -20,11 +20,11 @@ resource "aws_instance" "udacity_t2" {
 # TODO: provision 2 m4.large EC2 instances named Udacity M4
 
 
-resource "aws_instance" "udacity_t2" {
+resource "aws_instance" "udacity_m4" {
   count         = 2
   ami           = "ami-090e0fc566929d98b" # Update this with the desired AMI ID
   instance_type = "m4.large"
   tags = {
-    Name = "Udacity T2"
+    Name = "Udacity M4"
   }
 }
